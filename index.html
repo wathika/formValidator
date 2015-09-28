@@ -1,0 +1,24 @@
+<form onsubmit="return checkForm();" method="post" action="mailto:YOUR EMAIL ADDRESS HERE">
+  <div class="contact_name">
+    <span class="contact_label">Name:*</span>
+    <input type="text" id="name" /><br />
+    <div class="error" id="nameError">Required: Please enter your name<br /></div>
+  </div> <!-- .contact_name ends -->
+
+  <div class="contact_email">
+    <span class="contact_label">Email:*</span>
+    <input type="text" id="email" /><br />
+    <div class="error" id="emailError">Required: Please enter your email address<br /></div>
+  </div> <!-- .contact_email ends -->
+
+  <div class="contact_comment">
+    <span class="contact_label">Message:*</span>
+    <textarea id="comment" rows="10" cols="35"></textarea>
+    <div class="error" id="commentError">Required: Please enter a message<br /></div>
+  </div> <!-- .contact_comment ends -->
+
+  <div class="contact_submit">
+    <input type='submit' value='Submit' />
+  </div> <!-- .contact_submit ends -->
+  <p><span class="contact_nb">NB: * Donotes required field</span></p>
+</form>
